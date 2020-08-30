@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8'>
+  <title>CLEANING SERVICES</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <meta name="keywords" content="cleaning ,cleaning services , home cleaning , cleaning houses , perfct cleaning services">
+</head>
+
+<body>
+  <div class="container">
+    <div class="nav-wrapper">
+      <div class="left-side">
+        <div class="nav-link-wrapper active-nav-link">
+          <a href="index.html">Home</a>
+        </div>
+
+        <div class="nav-link-wrapper">
+          <a href="about.html">About</a>
+        </div>
+      </div>
+
+      <div class="right-side">
+        <div class="brand">
+          WASIM KHALIL
+        </div>
+      </div>
+    </div>
+
+    <div class="content-wrapper">
+      <div class="portfolio-items-wrapper">
+
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background" style="background-image:url(images/2596975.jpg)"></div>
+
+          <div class="img-text-wrapper">
+            
+
+            <div class="subtitle">IMAGINE THAT IS FOR YOU</div>
+          </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background" style="background-image:url(images/RTRERT.GIF)"></div>
+          <div class="img-text-wrapper">
+            
+            <div class="subtitle">IMAGINE THAT IS FOR YOU</div>
+          </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background" style="background-image:url(images/vacuum-cleaner-657719_1920.jpg)"></div>
+          <div class="img-text-wrapper">
+            
+
+            <div class="subtitle">IMAGINE THAT IS FOR YOU</div>
+          </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background" style="background-image:url(images/vacuum-cleaner-1605068_1920.jpg)"></div>
+          <div class="img-text-wrapper">
+            
+
+            <div class="subtitle">IMAGINE THAT IS FOR YOU</div>
+          </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background" style="background-image:url(images/nirzar-pangarkar-CswKfD546Z8-unsplash.jpg)"></div>
+          <div class="img-text-wrapper">
+            
+
+            <div class="subtitle">IMAGINE THAT IS FOR YOU</div>
+          </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background" style="background-image:url(images/cleaning-268107_1920.jpg)"></div>
+          <div class="img-text-wrapper">
+            
+
+            <div class="subtitle">IMAGINE THAT IS FOR YOU</div>
+          </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background" style="background-image:url(images/IMG-20200830-WA0008.jpg)"></div>
+          <div class="img-text-wrapper">
+            
+
+            <div class="subtitle">IMAGINE THAT IS FOR YOU</div>
+          </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background" style="background-image:url(images/modern-minimalist-bathroom-3115450_1280.jpg)"></div>
+          <div class="img-text-wrapper">
+            
+
+            <div class="subtitle">IMAGINE THAT IS FOR YOU</div>
+          </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background" style="background-image:url(images/16910.jpg)"></div>
+          <div class="img-text-wrapper">
+            
+
+            <div class="subtitle">IMAGINE THAT IS FOR YOU</div>
+          </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background" style="background-image:url(images/IMG-20200830-WA0009.jpg)"></div>
+          <div class="img-text-wrapper">
+            
+
+            <div class="subtitle">IMAGINE THAT IS FOR YOU</div>
+          </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background" style="background-image:url(images/IMG-20200830-WA0006.jpg)"></div>
+          <div class="img-text-wrapper">
+            
+
+            <div class="subtitle">IMAGINE THAT IS FOR YOU</div>
+          </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background" style="background-image:url(images/IMG-20200830-WA0003.jpg)"></div>
+          <div class="img-text-wrapper">
+           
+
+            <div class="subtitle">IMAGINE THAT IS FOR YOU</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+
+<script>
+  const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper');
+
+  portfolioItems.forEach(portfolioItem => {
+    portfolioItem.addEventListener('mouseover', () => {
+      console.log(portfolioItem.childNodes[1].classList)
+      portfolioItem.childNodes[1].classList.add('image-blur');
+    });
+
+    portfolioItem.addEventListener('mouseout', () => {
+      console.log(portfolioItem.childNodes[1].classList)
+      portfolioItem.childNodes[1].classList.remove('image-blur');
+    });
+  });
+
+</script>
+
+</html>
